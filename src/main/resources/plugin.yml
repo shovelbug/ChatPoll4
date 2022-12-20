@@ -1,0 +1,12 @@
+name: ChatPoll4
+version: '${project.version}'
+main: chatpoll4.chatpoll4.ChatPoll4
+api-version: 1.19
+authors: [ jtwebhomer ]
+website: http://play.quantumvibe.online
+commands:
+  poll:
+    description: Create a poll with multiple choice answers
+    usage: /poll <question> <choice1> <choice2>...
+    permission: ChatPoll.poll
+  answer:
